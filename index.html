@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <title>Apollo Missions</title>
+</head>
+<body>
+    <div id="menu" class="hide" role="navigation">
+        <button class="menu-btn"aria-label="Close menu button" tabindex="0">
+            <i class="fa fa-times fa-2x" aria-hidden="true" onclick="toggleMenu()" tabindex="-1"></i>
+        </button>        
+        <a href="/" tabindex="0"><i class="fa fa-home fa-2x" aria-hidden="true" tabindex="-1"></i> Home</a>
+        <a href="/apod.html" tabindex="0"><i class="fa fa-camera fa-2x" aria-hidden="true" tabindex="-1"></i> Photo of the day</a>
+        <a href="https://week1.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 1.8</a>
+        <a href="https://week1-10.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 1.10</a>
+        <a href="https://week2-4.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 2.4</a>
+        <a href="https://week2-7.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 2.7</a>
+        <a href="https://week4-4.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 4.4</a>
+        <a href="https://week5-7.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 5.7</a>
+    </div>      
+    <nav>
+        <div>
+            <button class="menu-btn" aria-label="Menu button" tabindex="0">
+                <i class="fa fa-bars fa-2x" aria-hidden="true" onclick="toggleMenu()" tabindex="-1"></i>
+            </button>
+            
+        </div>        
+    </nav>
+    <main>
+        <div class="main-content">
+            <h1>Noteable Apollo missions</h1>  
+            <p>
+                Below is some information about a select few notable missions from the apollo project.
+            </p>
+            <form id="quiz">
+                <label for="answer">What year was the first moon landing?</label>
+                <input id="quizAnswer" type="number" maxlength="4">
+                <input id="quizBtn" type="button" value="Check Answer" >
+            </form>
+            <p id="correct" class="hide">Correct</p>
+            <p id="incorrect" class="hide">Incorrect!</p>
+        </div>
+    </main>
+    <section>
+        <div class="section-content light">
+                <h2>Apollo 8 - First crewed flight of Saturn V</h2>
+                <p>
+                    Apollo 8, launched on December 21, 1968, marked a pivotal moment in space exploration as the first crewed mission to leave Earth's gravitational influence and orbit the Moon. The mission was commanded by Frank Borman, with James Lovell as Command Module Pilot and William Anders as Lunar Module Pilot. Originally intended to test both the Command/Service Module (CSM) and the Lunar Module (LM) in Earth orbit, the mission profile was altered due to delays in the LM's readiness. Consequently, NASA opted for a bold strategy: a lunar orbital flight using only the CSM. ​
+                </p>
+                <img src="https://www.nasa.gov/wp-content/uploads/static/history/alsj/a410/ap9-crew2-noID.jpg" alt="astronauts stood in front of a Saturn V rocket.">          
+        </div>
+    </section>
+    <section>
+        <div class="section-content light">
+            <h2>Apollo 11 - First Moon Landing</h2>
+            <p>
+                Apollo 11 was the first mission to land humans on the Moon. Launched on July 16, 1969, it was crewed by Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed on the Moon on July 20, while Collins remained in orbit. Armstrong became the first person to walk on the lunar surface, famously saying, "That's one small step for man, one giant leap for mankind." The crew conducted experiments, collected samples, and returned safely on July 24. Apollo 11 fulfilled President Kennedy’s goal of a Moon landing before the end of the 1960s, marking a historic achievement.
+            </p>
+            <img src="https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/ap11-KSC-69PC-393HR.jpg" alt="A saturn v rocket taking off">            
+        </div>
+    </section>     
+    <section>
+        <div class="section-content light">
+            <h2>Apollo 13 - Successful Failiure</h2>
+            <p>
+                Apollo 13, launched on April 11, 1970, was intended to be the third mission to land humans on the Moon. The crew consisted of Commander Jim Lovell, Command Module Pilot Jack Swigert, and Lunar Module Pilot Fred Haise. Approximately 56 hours into the mission, an oxygen tank in the service module exploded, crippling the spacecraft and forcing the crew to abort the lunar landing.
+                To survive, the astronauts used the Lunar Module "Aquarius" as a lifeboat, despite it being designed to support two men for two days, not three men for the four days required to return to Earth. They faced significant challenges, including limited power, a cold and damp cabin, and a shortage of potable water. Mission Control in Houston worked tirelessly to devise procedures to stretch the Lunar Module's resources and ensure the crew's safe return. 
+                The mission concluded successfully with splashdown in the South Pacific Ocean on April 17, 1970. Apollo 13 is often referred to as a "successful failure" because, despite the failure to land on the Moon, the safe return of the crew demonstrated the effectiveness of problem-solving and teamwork in the face of life-threatening adversity.                     
+            </p> 
+            <img src="https://www.nasa.gov/wp-content/uploads/static/history/alsj/a13/AS13-59-8500HR.jpg" alt="the damage sustained by the apollo 13 command module">           
+        </div>
+    </section>   
+    <section>
+        <div class="section-content light">
+            <h2>Apollo 17 - Final Mission</h2>
+            <p>
+                Apollo 17, launched on December 7, 1972, was NASA's final mission of the Apollo program and the most recent time humans have set foot on the Moon. The crew consisted of Commander Eugene Cernan, Command Module Pilot Ronald Evans, and Lunar Module Pilot Harrison Schmitt—the first professional geologist to land on the Moon. The mission aimed to collect lunar highland material older than Mare Imbrium and investigate potential recent volcanic activity by landing in the Taurus–Littrow valley. Cernan and Schmitt conducted three moonwalks, collecting samples and deploying scientific instruments, while Evans orbited above. Notably, the crew captured the iconic "Blue Marble" photograph of Earth. Apollo 17 set records for the longest lunar surface stay, longest extravehicular activities, and largest lunar sample return. The mission concluded with a safe return to Earth on December 19, 1972.                    
+            </p>   
+            <img src="https://www.nasa.gov/wp-content/uploads/static/history/alsj/a17/ap17-S72-55830.jpg" alt="Apollo 17 crew compartment with parachutes deployed touching down">     
+        </div>
+    </section>              
+
+   
+    <footer>        
+        <h3>References</h3>
+        <ul>
+            <li>Wikipedia - accessed March 2025 - https://en.wikipedia.org/wiki/Apollo_program </li>
+            <li>Wikipedia - accessed March 2025 - https://en.wikipedia.org/wiki/Apollo_8 </li>
+            <li>Wikipedia - accessed March 2025 - https://en.wikipedia.org/wiki/Apollo_11 </li>
+            <li>Wikipedia - accessed March 2025 - https://en.wikipedia.org/wiki/Apollo_13 </li>
+            <li>Wikipedia - accessed March 2025 - https://en.wikipedia.org/wiki/Apollo_17 </li>
+            <li>NASA Libary - accessed March 2025 - https://www.nasa.gov/history/alsj/picture.html </li>
+        </ul>
+        <span>&copy; 2025</span>
+
+    </footer>    
+    <script src="./js/app.js"></script>
+</body>
+</html>

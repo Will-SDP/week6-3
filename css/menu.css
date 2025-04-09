@@ -1,0 +1,65 @@
+nav {
+    width: 100%;
+    background-color: #2c3e50;
+    
+}
+
+nav i, #menu i {
+    padding: 14px 16px;
+    color: #ecf0f1;
+}
+
+
+#menu {
+    background-color: #2c3e50;
+    width: 250px;    
+    /* top: 0;
+    bottom: 0; */
+    height: 100%;
+    position: fixed;
+    border-right: 2px solid #8e44ad;
+    transition: 0.5s;
+    display: none;
+}
+
+#menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+#menu a:focus {
+    background-color: #8e44ad;
+}
+
+#menu a:hover {
+    background-color: #8e44ad;
+}
+
+nav div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+}
+
+.menu-btn {
+    background-color: #2c3e50;
+    border: 0;
+    
+}
+
+.menu-btn:focus {
+    outline: 0.1em solid #8e44ad;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu {
+        width: 100%;
+    }  
+
+    #menu a {
+        text-align: center;
+    }
+}
